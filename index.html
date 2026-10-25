@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FACEIT Coach helps Counter-Strike 2 players review public FACEIT statistics and understand their performance over time.">
+  <title>FACEIT Coach — CS2 performance insights</title>
+  <style>
+    :root{color-scheme:dark;--bg:#0b0d10;--surface:#12151a;--surface2:#181c22;--line:rgba(255,255,255,.09);--text:#e6e8eb;--muted:#9aa2ad;--blue:#5b8def;--green:#3fb950}
+    *{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% -15%,rgba(91,141,239,.14),transparent 55%),var(--bg);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--text)}
+    a{color:#8ab0ff;text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:980px;margin:auto;padding:28px 24px 64px}.nav{display:flex;justify-content:space-between;align-items:center;padding:8px 0 64px}.logo{font-weight:750;letter-spacing:-.04em;font-size:18px}.logo span{color:var(--blue)}.navlinks{display:flex;gap:20px;font-size:14px;color:var(--muted)}
+    .eyebrow{color:#9cb9f8;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}.hero{max-width:760px;padding:16px 0 46px}.hero h1{font-size:clamp(42px,7vw,72px);line-height:1.02;letter-spacing:-.06em;margin:14px 0 22px}.hero p{font-size:19px;max-width:650px;color:var(--muted);margin:0}.hero .disclaimer{font-size:12px;margin-top:22px}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0 54px}.card{background:linear-gradient(145deg,var(--surface2),var(--surface));border:1px solid var(--line);border-radius:14px;padding:22px}.card .num{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;color:var(--blue);font-size:13px}.card h2{font-size:18px;margin:12px 0 6px;letter-spacing:-.025em}.card p{font-size:14px;color:var(--muted);margin:0}.section{border-top:1px solid var(--line);padding:30px 0}.section h2{font-size:22px;letter-spacing:-.03em;margin:0 0 10px}.section p{color:var(--muted);max-width:760px}.footer{border-top:1px solid var(--line);margin-top:34px;padding-top:22px;color:#737c88;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px}.pill{display:inline-flex;border:1px solid rgba(91,141,239,.35);background:rgba(91,141,239,.08);border-radius:999px;padding:7px 12px;font-size:13px;color:#b4caff;margin-top:26px}
+    @media(max-width:680px){.features{grid-template-columns:1fr}.nav{padding-bottom:42px}.navlinks{gap:12px}.hero p{font-size:17px}}
+  </style>
+</head>
+<body><div class="wrap">
+  <header class="nav"><a class="logo" href="index.html">FACEIT <span>Coach</span></a><nav class="navlinks"><a href="#features">Features</a><a href="privacy.html">Privacy</a></nav></header>
+  <main>
+    <section class="hero"><div class="eyebrow">Counter-Strike 2 · Performance insights</div><h1>Understand your game.<br>Improve with intent.</h1><p>FACEIT Coach is a desktop companion concept for reviewing public FACEIT CS2 statistics, comparing recent form with longer-term performance, and turning observations into a practical training plan.</p><div class="pill">Built for players who want clear, useful feedback</div><p class="disclaimer">FACEIT Coach is an independent project and is not affiliated with, endorsed by, or sponsored by FACEIT or Valve.</p></section>
+    <section class="features" id="features">
+      <article class="card"><div class="num">01 / PROFILE</div><h2>One search field</h2><p>Search by FACEIT nickname or profile link. Steam links can be used when the linked FACEIT account can be identified.</p></article>
+      <article class="card"><div class="num">02 / TRENDS</div><h2>Recent form and history</h2><p>Compare available CS2 statistics across recent-match windows and lifetime summaries, without inventing missing data.</p></article>
+      <article class="card"><div class="num">03 / PRACTICE</div><h2>Actionable next steps</h2><p>Use performance patterns to guide a simple weekly practice plan and track progress over time.</p></article>
+    </section>
+    <section class="section"><h2>Current status</h2><p>FACEIT Coach is under active development. Features that depend on official FACEIT data access require the developer's approved integration and may not be available in every prototype build.</p></section>
+    <section class="section"><h2>Contact and privacy</h2><p>Read the <a href="privacy.html">Privacy Notice</a> to understand how the desktop prototype handles profile queries and locally saved application data. For project support, use the contact method provided by the developer who distributed your build.</p></section>
+  </main>
+  <footer class="footer"><span>© 2026 FACEIT Coach — independent project</span><span><a href="privacy.html">Privacy Notice</a></span></footer>
+</div></body></html>
